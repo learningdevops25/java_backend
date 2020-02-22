@@ -18,6 +18,8 @@ pipeline {
             stage('Deploy') {
                   steps {
                         echo "Deploying in Testing Server"
+                        echo "Deploying in Testing2 Server"
+                        
                   }
             }
             stage('Deploy to Stage') {
